@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploying Webpage with Jenkins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Deploying Webpage with Jenkins</h1>
+        <p>Jenkins is a powerful automation server that can be used to automate various tasks, including deploying webpages and applications. Here are the basic steps to deploy a webpage using Jenkins:</p>
+        
+        <ol>
+            <li><strong>Create a Jenkins Job:</strong> Start by creating a new Jenkins job to automate the deployment process.</li>
+            
+            <li><strong>Configure Source Code Management:</strong> In your Jenkins job configuration, specify the source code repository (e.g., Git repository URL) where your webpage's source code is hosted.</li>
+            
+            <li><strong>Set Up Build Triggers:</strong> Configure build triggers to specify when Jenkins should initiate a build. This could be based on code commits (e.g., using GitHub webhook), schedule, or other events.</li>
+            
+            <li><strong>Add Build Steps:</strong> Define build steps in your Jenkins job to build and prepare your webpage for deployment. This might include compiling assets, running tests, or any other necessary tasks.</li>
+            
+            <li><strong>Deploy to Web Server:</strong> Use Jenkins plugins or custom scripts in your build steps to deploy your webpage to a web server. This could involve copying files over SSH, using Docker containers, or other deployment methods.</li>
+            
+            <li><strong>Monitor and Automate:</strong> Set up monitoring and automation within Jenkins to ensure continuous deployment. Monitor build statuses, handle errors gracefully, and automate rollback procedures if needed.</li>
+        </ol>
+
+        <p>By setting up a CI/CD pipeline with Jenkins, you can automate the deployment process of your webpage, ensuring faster and more reliable deployments. Jenkins offers flexibility and integration capabilities with various tools and services, making it a popular choice for automating software delivery pipelines.</p>
+    </div>
+</body>
+</html>
